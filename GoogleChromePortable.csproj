@@ -52,7 +52,9 @@
   <ItemGroup>
     <Compile Include="Core\GoogleChrome.cs" />
     <Compile Include="Core\IWebDriver.cs" />
-    <Compile Include="Core\LoadWebDriver.cs" />
+    <Compile Include="Core\LoadAssembly.cs" />
+    <Compile Include="Core\ReflectionExtensions.cs" />
+    <Compile Include="Core\WebDriver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

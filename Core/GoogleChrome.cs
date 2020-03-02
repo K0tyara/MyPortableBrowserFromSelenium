@@ -13,7 +13,7 @@ namespace GoogleChromePortable.Core
         public IWebDriver Driver;
         public GoogleChrome()
         {
-            Driver = new LoadWebDriver();
+            Driver = new WebDriver();
         }
 
         public Process Run()
